@@ -44,7 +44,7 @@
 <body class="h-100 text-center text-white">
     <div id="app">
         <div class="menu">
-            <div class="menu-block title" style="min-width: 365px;">
+            <div class="menu-block title" style="min-width: 170px;">
                 <a href="">Astortour</a>
                 <small>«Горы зовут и я должен идти!»</small>
             </div>
@@ -104,13 +104,20 @@ c1.182,0.812,2.079,0.633,2.079,0.633l4.181-0.056c0,0,2.186-0.136,1.149-1.858C38.
         </div>
 
         <div class="main-block">
+            <div class="main-black"></div>
             <div class="main-image"></div>
             <div class="main-text">
                 <h2>ТРЕККИНГ В НЕПАЛЕ</h2>
-                <h1>Горный клуб
-                    Astortour</h1>
-                <p>Свет, живущий во мне, приветствует свет,
-                    живущий в тебе</p>
+                <h1>Astortour</h1>
+                <p>Лучше гор могут быть только горы,<br>
+                На которых ещё не бывал</p>
+            </div>
+            <div class="arrow">
+                <div class="arrow-wrapper">
+                    <div class="t-cover__arrow_mobile">
+                        <svg class="t-cover__arrow-svg" style="fill:#ffffff;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592"><g><path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path></g></svg>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
