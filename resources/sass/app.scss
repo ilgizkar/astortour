@@ -1,0 +1,115 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.menu {
+    background-color: rgba(1,50,71,1);
+    height: 80px;
+    width: 100%;
+    display: table;
+    z-index: 990;
+    position: fixed;
+    padding: 0 40px;
+    top: 0;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0%);
+    -webkit-transition: background-color .3s linear;
+    -moz-transition: background-color .3s linear;
+    -o-transition: background-color .3s linear;
+    -ms-transition: background-color .3s linear;
+    transition: background-color .3s linear;
+    .menu-block {
+        display: table-cell;
+        vertical-align: middle;
+        .social-links-wrap {
+            padding-left: 30px;
+            display: flex;
+            .social-links-item {
+                margin-right: 10px;
+            }
+        }
+        .right-button {
+            display: table-cell;
+            vertical-align: middle;
+            a {
+                height: 40px;
+                font-size: 14px;
+                margin-left: 10px;
+                color: #ffffff;
+                background-color: #eb642f;
+                border-radius: 120px;
+                display: block;
+                padding: 9px 25px;
+                font-weight: 700;
+                text-decoration: none;
+                &:hover {
+                    background-color: #a34d14 !important;
+                }
+            }
+        }
+        &.title {
+            text-align: left;
+            a {
+                font-size: 32px;
+                color: #f8fafc;
+                text-decoration: none;
+                display: block;
+                margin-bottom: -15px;
+                margin-top: -10px;
+            }
+        }
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0!important;
+            -webkit-transition: opacity ease-in-out .2s;
+            -moz-transition: opacity ease-in-out .2s;
+            -o-transition: opacity ease-in-out .2s;
+            transition: opacity ease-in-out .2s;
+            .item {
+                clear: both;
+                font-family: 'PT Sans',Arial,sans-serif;
+                font-size: 16px;
+                display: inline-block;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin: 0;
+                color: #000;
+                white-space: nowrap;
+                a {
+                    color: #ffffff;
+                    font-size: 13px;
+                    font-weight: 600;
+                    font-family: 'Georgia';
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    &:hover {
+                        opacity: 0.5 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-block {
+    position: relative;
+    .main-image {
+        height: 100vh;
+        background-image: url(https://thumb.tildacdn.com/tild6164-6264-4033-a538-386163306364/-/format/webp/DSC_2250__-3jpg_1680.jpg);
+    }
+    .main-text {
+        position: absolute;
+        top: 135px;
+        left: 50%;
+        margin-left: -138px;
+        h2 {
+            text-transform: uppercase;
+            font-size: 16px !important;
+        }
+    }
+}
