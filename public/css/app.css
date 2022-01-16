@@ -11062,7 +11062,9 @@ a.text-dark:focus {
 
 .main-block .main-image {
   height: 100vh;
-  background-image: url(https://thumb.tildacdn.com/tild6164-6264-4033-a538-386163306364/-/format/webp/DSC_2250__-3jpg_1680.jpg);
+  background-image: url(/images/7.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .main-block .arrow {
@@ -11083,7 +11085,7 @@ a.text-dark:focus {
   position: absolute;
   top: 135px;
   left: 50%;
-  margin-left: -138px;
+  margin-left: -180px;
 }
 
 .main-block .main-text h1 {
@@ -11094,5 +11096,21 @@ a.text-dark:focus {
 .main-block .main-text h2 {
   text-transform: uppercase;
   font-size: 16px !important;
+}
+
+.main-block .main-text p {
+  opacity: 0.5;
+  margin-top: 110px;
+}
+
+.second-block {
+  color: #000000;
+  text-align: left;
+  padding: 20px;
+}
+
+.carousel-block {
+  width: 80%;
+  margin: 0 auto;
 }
 
