@@ -11114,3 +11114,34 @@ a.text-dark:focus {
   margin: 0 auto;
 }
 
+.footer-block {
+  color: #000000;
+  padding: 20px;
+}
+
+.footer-block .form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.footer-block .form .form-input {
+  display: block;
+  width: 100%;
+  margin: 15px;
+  padding: 10px 15px;
+}
+
+.footer-block .form .send {
+  background-color: #eb642f;
+  color: #f8fafc;
+  border: 1px solid #eb642f;
+  border-radius: 7px;
+  padding: 5px 20px;
+}
+
+.info-block {
+  color: #101010;
+  padding: 30px;
+  font-size: 18px;
+}
+
