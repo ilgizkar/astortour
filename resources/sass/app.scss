@@ -23,7 +23,7 @@
     -ms-transition: background-color .3s linear;
     transition: background-color .3s linear;
     @include breakpoint(w500){
-        padding: 0 0 0 20px;
+        padding: 0 20px;
     }
     .menu-block {
         display: table-cell;
