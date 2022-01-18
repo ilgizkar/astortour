@@ -10981,12 +10981,31 @@ a.text-dark:focus {
 }
 
 .menu .menu-block .social-links-wrap {
+  position: relative;
   padding-left: 30px;
   display: flex;
 }
 
-.menu .menu-block .social-links-wrap .social-links-item {
+.menu .menu-block .social-links-wrap .icons {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: -22px;
+}
+
+.menu .menu-block .social-links-wrap .icons .social-links-item {
   margin-right: 10px;
+}
+
+.menu .menu-block .social-links-wrap .phone {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+}
+
+.menu .menu-block .social-links-wrap .phone a {
+  color: #f2f2f3;
+  text-decoration: none;
 }
 
 .menu .menu-block .right-button {
@@ -11005,6 +11024,7 @@ a.text-dark:focus {
   padding: 9px 25px;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .menu .menu-block .right-button a:hover {
@@ -11137,6 +11157,16 @@ a.text-dark:focus {
   border: 1px solid #eb642f;
   border-radius: 7px;
   padding: 5px 20px;
+}
+
+.main-info {
+  color: #101010;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.main-info .text {
+  text-align: left;
 }
 
 .info-block {
