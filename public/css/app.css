@@ -10975,9 +10975,35 @@ a.text-dark:focus {
   transition: background-color 0.3s linear;
 }
 
+@media only screen and (max-width: 500px) {
+  .menu {
+    padding: 0 0 0 20px;
+  }
+}
+
 .menu .menu-block {
   display: table-cell;
   vertical-align: middle;
+}
+
+.menu .menu-block.first {
+  min-width: 650px;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu .menu-block.first {
+    min-width: 0 !important;
+  }
+}
+
+.menu .menu-block.second {
+  min-width: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu .menu-block.last {
+    display: none !important;
+  }
 }
 
 .menu .menu-block .social-links-wrap {
@@ -10997,6 +11023,13 @@ a.text-dark:focus {
   margin-right: 10px;
 }
 
+@media only screen and (max-width: 500px) {
+  .menu .menu-block .social-links-wrap .icons {
+    left: 21px;
+    top: -25px;
+  }
+}
+
 .menu .menu-block .social-links-wrap .phone {
   position: absolute;
   top: 12px;
@@ -11006,6 +11039,13 @@ a.text-dark:focus {
 .menu .menu-block .social-links-wrap .phone a {
   color: #f2f2f3;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu .menu-block .social-links-wrap .phone {
+    left: 30px;
+    top: 8px;
+  }
 }
 
 .menu .menu-block .right-button {
@@ -11042,6 +11082,12 @@ a.text-dark:focus {
   display: block;
   margin-bottom: -15px;
   margin-top: -10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu .menu-block.title a {
+    font-size: 28xp;
+  }
 }
 
 .menu .menu-block .nav {
@@ -11087,6 +11133,12 @@ a.text-dark:focus {
   background-size: 100%;
 }
 
+@media only screen and (max-width: 500px) {
+  .main-block .main-image {
+    height: 310px;
+  }
+}
+
 .main-block .arrow {
   position: absolute;
   bottom: 25px;
@@ -11101,6 +11153,12 @@ a.text-dark:focus {
   top: 0;
 }
 
+@media only screen and (max-width: 500px) {
+  .main-block .main-black {
+    height: 310px;
+  }
+}
+
 .main-block .main-text {
   position: absolute;
   top: 135px;
@@ -11108,9 +11166,23 @@ a.text-dark:focus {
   margin-left: -180px;
 }
 
+@media only screen and (max-width: 500px) {
+  .main-block .main-text {
+    top: 100px;
+    margin-left: -120px;
+  }
+}
+
 .main-block .main-text h1 {
   font-size: 90px !important;
   margin: 60px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-block .main-text h1 {
+    font-size: 40px !important;
+    margin: 30px 0;
+  }
 }
 
 .main-block .main-text h2 {
@@ -11121,6 +11193,12 @@ a.text-dark:focus {
 .main-block .main-text p {
   opacity: 0.5;
   margin-top: 110px;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-block .main-text p {
+    margin-top: 40px;
+  }
 }
 
 .second-block {
@@ -11144,11 +11222,23 @@ a.text-dark:focus {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 500px) {
+  .footer-block .form {
+    width: 90%;
+  }
+}
+
 .footer-block .form .form-input {
   display: block;
   width: 100%;
   margin: 15px;
   padding: 10px 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-block .form .form-input {
+    margin-left: 1px;
+  }
 }
 
 .footer-block .form .send {
@@ -11167,6 +11257,12 @@ a.text-dark:focus {
 
 .main-info .text {
   text-align: left;
+}
+
+hr {
+  border-top: 2px solid #013247;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .info-block {
