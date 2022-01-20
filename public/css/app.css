@@ -11263,6 +11263,13 @@ a.text-dark:focus {
 
 .main-info .text {
   text-align: left;
+  font-family: sans-serif;
+}
+
+.main-info h2 {
+  font-size: 32px !important;
+  color: #013247;
+  font-weight: 600;
 }
 
 hr {
