@@ -12,9 +12,9 @@
     <meta property="pageDescription" content="">
     <meta property="twitterDescription" content="">
 
-    <meta name="Keywords" content="{{ isset($keywords) ? $keywords : 'Клумба' }}">
-    <meta name="description" content="{{ isset($description) ? $description : 'Клумба' }}" />
-    <link rel="canonical" href="{{ isset($canonical) ? $canonical : 'https://klumba.ru/' }}"/>
+    <meta name="Keywords" content="{{ isset($keywords) ? $keywords : 'Astortour' }}">
+    <meta name="description" content="{{ isset($description) ? $description : 'Astortour' }}" />
+    <link rel="canonical" href="{{ isset($canonical) ? $canonical : 'http://astortour.ru/' }}"/>
     <title>Треккинг в Непале и походы в Гималаях</title>
 
 {{--    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset("/icons/apple-icon-57x57.png") }}">--}}
